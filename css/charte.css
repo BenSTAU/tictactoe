@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+@font-face {
+  font-family: "Londrina";
+  src: url(./font/LondrinaShadow-Regular.ttf);
+}
+@font-face {
+  font-family: "Black han";
+  src: url(./font/BlackHanSans-Regular.ttf);
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+body {
+  height: 100vh;
+  background-color: var(--color-bg);
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+:root {
+  /* général */
+  --color-bg: #faf6e9;
+
+  --color2-bg: #aabfff;
+
+  /* index */
+  --font-main: "Black Han";
+  --color-boxShadow-index: #e78f8e;
+
+  --color-logo: #aabfff;
+
+  --color-jeux1: #ffb5a7;
+  --color-jeux1-second: #ff9c8a;
+
+  --jeux1-boxShadow: 1px 1px 0px 0px var(--color-jeux1-second),
+    2px 2px 0px 0px var(--color-jeux1-second),
+    3px 3px 0px 0px var(--color-jeux1-second),
+    4px 4px 0px 0px var(--color-jeux1-second),
+    5px 5px 0px 0px var(--color-jeux1-second),
+    6px 6px 0px 0px var(--color-jeux1-second),
+    7px 7px 0px 0px var(--color-jeux1-second),
+    8px 8px 0px 0px var(--color-jeux1-second),
+    9px 9px 0px 0px var(--color-jeux1-second),
+    10px 10px 0px 0px var(--color-jeux1-second),
+    11px 11px 0px 0px var(--color-jeux1-second),
+    12px 12px 0px 0px var(--color-jeux1-second);
+
+  /* jeux */
+  --color-box: #dbe7e4;
+  --color-underline: #809bce;
+  --color-underline-second: #7ec4cf;
+  --color-win: #f670ff;
+  --color-o: #fac475;
+  --color-x: #fa9775;
+  --color-winBg: #e9ff70;
+
+  /* effet pacman */
+  --color2-box: #ffff00;
+  --color2-underline: #809bce;
+  --color2-underline-second: #7ec4cf;
+
+  --color2-tile: #f2dd46;
+  /*  */
+
+  --main-boxShadow: 1px 1px 0px 0px var(--color-underline),
+    2px 2px 0px 0px var(--color-underline),
+    3px 3px 0px 0px var(--color-underline),
+    4px 4px 0px 0px var(--color-underline),
+    5px 5px 0px 0px var(--color-underline),
+    6px 6px 0px 0px var(--color-underline),
+    7px 7px 0px 0px var(--color-underline),
+    8px 8px 0px 0px var(--color-underline),
+    9px 9px 0px 0px var(--color-underline),
+    10px 10px 0px 0px var(--color-underline),
+    11px 11px 0px 0px var(--color-underline),
+    12px 12px 0px 0px var(--color-underline),
+    13px 13px 0px 0px var(--color-underline),
+    14px 14px 0px 0px var(--color-underline),
+    15px 15px 0px 0px var(--color-underline);
+
+  --tile-boxShadow: 1px 1px 0px 0px var(--color-underline-second),
+    2px 2px 0px 0px var(--color-underline-second);
+
+  --letter-shadow: 1px 1px 0 var(--color-win), 2px 2px 0 var(--color-win),
+    3px 3px 0 var(--color-win), 4px 4px 0 var(--color-win),
+    5px 5px 0 var(--color-win), 6px 6px 0 var(--color-win),
+    7px 7px 0 var(--color-win), 8px 8px 0 var(--color-win),
+    9px 9px 0 var(--color-win), 10px 10px 0 var(--color-win),
+    11px 11px 0 var(--color-win), 12px 12px 0 var(--color-win);
+
+  --win-boxShadow: 1px 1px 0px 0px var(--color-win),
+    2px 2px 0px 0px var(--color-win), 3px 3px 0px 0px var(--color-win),
+    4px 4px 0px 0px var(--color-win), 5px 5px 0px 0px var(--color-win),
+    6px 6px 0px 0px var(--color-win), 7px 7px 0px 0px var(--color-win),
+    8px 8px 0px 0px var(--color-win), 9px 9px 0px 0px var(--color-win),
+    10px 10px 0px 0px var(--color-win), 11px 11px 0px 0px var(--color-win),
+    12px 12px 0px 0px var(--color-win), 13px 13px 0px 0px var(--color-win),
+    14px 14px 0px 0px var(--color-win), 15px 15px 0px 0px var(--color-win);
+
+  --button-boxShadow: 1px 1px 0px 0px var(--color-underline),
+    2px 2px 0px 0px var(--color-underline),
+    3px 3px 0px 0px var(--color-underline),
+    4px 4px 0px 0px var(--color-underline),
+    5px 5px 0px 0px var(--color-underline),
+    6px 6px 0px 0px var(--color-underline),
+    7px 7px 0px 0px var(--color-underline),
+    8px 8px 0px 0px var(--color-underline);
+}

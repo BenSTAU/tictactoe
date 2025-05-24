@@ -1,0 +1,52 @@
+@import "./charte.css";
+
+header {
+  display: flex;
+  height: 20vh;
+  width: 100%;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header nav {
+  position: relative;
+  width: 20%;
+  padding: 1rem 2rem;
+  font-family: var(--font-main);
+  font-size: 2.5rem;
+  color: var(--color2-box);
+  text-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px var(--color-logo);
+  background-color: var(--color2-bg);
+  border: 2px solid var(--color2-bg);
+  box-shadow: var(--main-boxShadow);
+  transform: rotate(3deg);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+main {
+  font-family: var(--font-main);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  top: 5%;
+  gap: 4rem;
+  width: 70%;
+  height: 100vh;
+  font-size: 2rem;
+}
+main div {
+  padding: 1rem 2rem;
+}
+
+#jeux1 {
+  border: 2px solid var(--color-jeux1);
+  background-color: var(--color-jeux1);
+  box-shadow: var(--jeux1-boxShadow);
+}

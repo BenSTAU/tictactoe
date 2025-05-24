@@ -1,0 +1,82 @@
+@import "./charte.css";
+header nav {
+  display: flex;
+  justify-content: center;
+}
+header nav ul {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 15%;
+  justify-content: flex-start;
+  gap: 3rem;
+  width: 90%;
+  height: 10vh;
+}
+header nav ul li {
+  transform: rotate(5deg);
+}
+
+main {
+  height: 100vh;
+}
+
+#box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 70vh;
+  width: 70vh;
+  border: 1px solid var(--color-underline);
+  transform: rotate(5deg);
+  box-shadow: var(--main-boxShadow);
+  background-color: var(--color-box);
+}
+#box div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 30%;
+  height: 30%;
+  border: 1px solid var(--color-underline-second);
+  border-radius: 10px;
+  box-shadow: var(--tile-boxShadow);
+  transition: box-shadow 0.2s, transform 0.2s, background-color 0.2s;
+  font-family: var(--font-main);
+  color: var(--color-hover);
+  font-size: 10rem;
+  cursor: pointer;
+}
+
+h1 {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  font-size: 6rem;
+  font-family: var(--font-main);
+  text-shadow: var(--letter-shadow);
+  transform: rotate(5deg);
+  border: 1px solid var(--color-win);
+  padding: 1rem 2rem;
+  box-shadow: var(--win-boxShadow);
+  background-color: var(--color-winBg);
+}
+
+.O {
+  color: var(--color-o);
+}
+
+.X {
+  color: var(--color-x);
+}
+
+.button {
+  font-family: var(--font-main);
+  font-size: 0.8rem;
+  border: 1px solid var(--color-underline);
+  padding: 0.5rem 1.5rem;
+  box-shadow: var(--button-boxShadow);
+  background-color: var(--color-box);
+}
