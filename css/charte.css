@@ -5,6 +5,10 @@
   text-decoration: none;
   list-style: none;
 }
+a {
+  color: inherit;
+  text-decoration: none;
+}
 @font-face {
   font-family: "Londrina";
   src: url(./font/LondrinaShadow-Regular.ttf);
@@ -43,18 +47,13 @@ main {
   --color-jeux1: #ffb5a7;
   --color-jeux1-second: #ff9c8a;
 
-  --jeux1-boxShadow: 1px 1px 0px 0px var(--color-jeux1-second),
-    2px 2px 0px 0px var(--color-jeux1-second),
-    3px 3px 0px 0px var(--color-jeux1-second),
-    4px 4px 0px 0px var(--color-jeux1-second),
-    5px 5px 0px 0px var(--color-jeux1-second),
-    6px 6px 0px 0px var(--color-jeux1-second),
-    7px 7px 0px 0px var(--color-jeux1-second),
-    8px 8px 0px 0px var(--color-jeux1-second),
-    9px 9px 0px 0px var(--color-jeux1-second),
-    10px 10px 0px 0px var(--color-jeux1-second),
-    11px 11px 0px 0px var(--color-jeux1-second),
-    12px 12px 0px 0px var(--color-jeux1-second);
+  --jeux1-boxShadow: 1px 1px 0px 0px var(--color-underline),
+    2px 2px 0px 0px var(--color-underline),
+    3px 3px 0px 0px var(--color-underline),
+    4px 4px 0px 0px var(--color-underline),
+    5px 5px 0px 0px var(--color-underline),
+    6px 6px 0px 0px var(--color-underline),
+    7px 7px 0px 0px var(--color-underline);
 
   /* jeux */
   --color-box: #dbe7e4;

@@ -11,3 +11,6 @@ export function isWin(moves, joueur) {
 
   return false;
 }
+export function allTilesInactive(tiles) {
+  return Array.from(tiles).every((tile) => tile.classList.contains("inactive"));
+}

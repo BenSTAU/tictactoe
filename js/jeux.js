@@ -3,7 +3,7 @@ import { click, enter, leave } from "./ui.js";
 
 function JcJ() {
   const tiles = document.querySelectorAll(".tile");
-  const winText = document.querySelector("h1");
+  const winText = document.querySelector("main h1");
   let joueur = "x";
   const moves = [];
 

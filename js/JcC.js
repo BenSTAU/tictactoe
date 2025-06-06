@@ -3,7 +3,7 @@ import { click, click2, enter, leave } from "./ui.js";
 
 function JcJ() {
   const tiles = document.querySelectorAll(".tile");
-  const winText = document.querySelector("h1");
+  const winText = document.querySelector("main h1");
   let joueur = "x";
   const moves = [];
   let isPlaying = false;
@@ -43,6 +43,10 @@ function JcJ() {
         clearInterval(tile._intervalId);
         leave(tile);
       });
+    } else if (allTilesInactive(tiles)) {
+      winText.style.display = "block";
+      winText.classList.add("draw");
+      winText.textContent = "Match nul !";
     } else {
       return;
     }

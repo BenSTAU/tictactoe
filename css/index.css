@@ -15,12 +15,14 @@ header nav {
   padding: 1rem 2rem;
   font-family: var(--font-main);
   font-size: 2.5rem;
-  color: var(--color2-box);
   text-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px var(--color-logo);
-  background-color: var(--color2-bg);
-  border: 2px solid var(--color2-bg);
+  background-color: var(--color-box);
+  border: 2px solid var(--color-underline);
   box-shadow: var(--main-boxShadow);
   transform: rotate(3deg);
+}
+header nav ul li {
+  color: var(--color-o);
 }
 
 body {
@@ -45,8 +47,9 @@ main div {
   padding: 1rem 2rem;
 }
 
-#jeux1 {
-  border: 2px solid var(--color-jeux1);
-  background-color: var(--color-jeux1);
+.jeux {
+  border: 2px solid var(--color-underline);
+  background-color: var(--color-box);
   box-shadow: var(--jeux1-boxShadow);
+  color: var(--color-x);
 }
